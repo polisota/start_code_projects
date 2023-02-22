@@ -55,7 +55,7 @@ double x2 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Введите координату Y второго числа: ");
 double y2 = Convert.ToDouble(Console.ReadLine());
 
-double res = Math.Sqrt(Math.Pow((x1-x2), 2) + Math.Pow((y2-y1), 2));
+double res = Math.Sqrt(Math.Pow((x2-x1), 2) + Math.Pow((y2-y1), 2));
 
 Console.Write($"Расстояние между точками = {Math.Round(res, 3)} ");
 
